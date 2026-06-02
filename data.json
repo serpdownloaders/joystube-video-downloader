@@ -1,0 +1,212 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/joystube-downloader",
+  "serply_link": "https://serp.ly/joystube-downloader",
+  "app_name": "Joystube Video Downloader",
+  "short_description": "Download & Save Joystube Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Downloader for Joystube is a browser extension designed for the specific page structure Joystube uses. Unlike sites with obvious video routes, Joystube presents its content through article-style slug pages that require a different approach to media discovery. This extension is positioned to handle that branded page-to-player handoff, making it easier to save videos from Joystube without manually digging through page requests.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/joystube-downloader-fullscreen-01-bd4f47946d.webp",
+    "https://apps.serp.co/media/optimized-products/joystube-downloader-fullscreen-02-3ef52bc5ae.webp",
+    "https://apps.serp.co/media/optimized-products/joystube-downloader-fullscreen-03-cd96623411.webp",
+    "https://apps.serp.co/media/optimized-products/joystube-downloader-fullscreen-04-3c4734b07d.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "What makes Joystube different from other video sites?",
+      "answer": "Joystube uses article-style slug routes instead of obvious video paths, so the downloader focuses on page-shell handling rather than a simple direct-video URL."
+    },
+    {
+      "question": "What formats does the extension target?",
+      "answer": "The extension is positioned to detect exposed MP4 and HLS/M3U8 stream sources from Joystube embedded players."
+    },
+    {
+      "question": "Why is iframe handoff mentioned so prominently?",
+      "answer": "Because the embedded player handoff is the strongest available extraction clue for Joystube pages based on the page structure."
+    },
+    {
+      "question": "Is the target verified?",
+      "answer": "Yes. The extension has a verified target bucket and targetReady status confirmed for Joystube domains."
+    },
+    {
+      "question": "Is it fully release-ready?",
+      "answer": "Not yet fully proven. The extension is target-verified but continues to refine its extraction behavior and config identity across different Joystube page types."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Archive personal content you have permission to save"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built specifically for Joystube article-style slug pages",
+    "Designed for embedded player and iframe handoff workflows",
+    "Targets exposed MP4 and HLS/M3U8 stream sources",
+    "Verified target row with Joystube domain coverage",
+    "Honest about candidate-stage readiness with clear status communication",
+    "Joystube-specific branding and product URL for clear identification",
+    "Messaging tailored to article-style Joystube slug pages",
+    "Designed for likely iframe and embedded-player handoff positioning",
+    "Stream hints include m3u8 and mp4 detection awareness",
+    "Known site domains include joystube.com and www.joystube.com",
+    "Honest candidate-stage status communication about current readiness",
+    "Target-verified bucket with targetReady status confirmed"
+  ],
+  "content": {
+    "why": [
+      "Joystube presents a unique challenge for video downloading because its pages are structured as article-style content posts rather than direct video routes. When you land on a Joystube page, the actual media source is often hidden behind an embedded player or iframe handoff, making it difficult to locate and save the video file using standard browser tools or generic downloaders.",
+      "This extension is purpose-built for that Joystube workflow. Instead of expecting a simple video URL, it is positioned to work with the branded page shell and follow the player handoff process. By targeting exposed MP4 and HLS/M3U8 sources that become available after the embedded player initializes, it offers a more focused approach than generic downloader tools that may not understand Joystubes page architecture."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Joystube and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open your browser and navigate to a Joystube page with an article-style slug URL.",
+      "Let the page fully load, including any embedded player or iframe content.",
+      "Start the video playing to allow the media source to become exposed.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "Wait for the extension to detect available video sources from the page.",
+      "Select your preferred quality option from the detected sources.",
+      "Click the download button to begin saving the file.",
+      "Choose a save location and confirm the download in your browser."
+    ],
+    "supported_formats": [
+      "Input: Exposed MP4 and HLS/M3U8 stream sources from Joystube embedded players",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Joystube users who want a site-specific downloader instead of generic tools",
+      "Viewers who encounter article-style slug pages rather than direct video routes",
+      "Users comfortable with embedded player and iframe handoff workflows",
+      "People who prefer to save videos locally for offline viewing or archiving"
+    ],
+    "use_cases": [
+      "Save videos from Joystube article-style pages for offline access",
+      "Work from a Joystube page that hands off through an iframe or embedded player",
+      "Capture exposed MP4 or HLS-style sources when they become available",
+      "Use a Joystube-branded extension instead of generic download sites",
+      "Archive personal content you have permission to save"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any video sources on a Joystube page Make sure the video is playing or has been started. Some embedded players only expose the media source after playback begins.",
+      "The download fails or produces a broken file Try refreshing the page and starting the video again before attempting the download. A poor network connection can also cause incomplete downloads.",
+      "The extension popup does not appear Verify the extension is installed correctly and enabled in your browser. Try restarting your browser if the issue persists.",
+      "The detected quality options seem limited Not all Joystube pages expose multiple quality levels. The available options depend on what the embedded player makes accessible.",
+      "I see a status message about candidate-stage readiness This is expected. The extension is target-verified but continues to improve its extraction behavior across different Joystube page types."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Joystube page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Joystube pages may use embedded player handoff that requires playback initialization",
+      "The extension is target-verified but remains in active development for full extraction validation"
+    ],
+    "about": [
+      "Joystube is a video platform that presents its content through article-style slug pages rather than direct video routes. This extension helps users navigate that unique page structure by focusing on the embedded player handoff and exposed media sources that Joystubes branded shell provides."
+    ]
+  },
+  "serpx_link": "https://serpx.link/joystube-downloader",
+  "github_topics": [
+    "joystube-download",
+    "joystube-downloader",
+    "joystube-video-downloader",
+    "joystube-video-downloader-online",
+    "joystube-video-downloader-mac",
+    "joystube-video-downloader-window",
+    "joystube-video-downloader-free",
+    "joystube-video-downloader-extension",
+    "joystube-video-downloader-app",
+    "joystube-video-downloader-chrome",
+    "joystube-video-downloader-from-url",
+    "how-to-download-joystube-videos",
+    "how-to-download-joystube-videos-mac",
+    "how-to-download-joystube-videos-windows",
+    "how-to-download-joystube-videos-online",
+    "how-to-download-joystube-videos-free",
+    "how-to-download-from-joystube",
+    "how-to-download-videos-from-joystube",
+    "download-joystube-videos",
+    "joystube-video-tutorial",
+    "save-joystube-videos",
+    "joystube-video-content-saver",
+    "how-to-download-joystube-videos-for-free"
+  ],
+  "hashtags": [
+    "#JoystubeDownload",
+    "#JoystubeDownloader",
+    "#JoystubeVideoDownloader",
+    "#JoystubeVideoDownloaderOnline",
+    "#JoystubeVideoDownloaderMac",
+    "#JoystubeVideoDownloaderWindow",
+    "#JoystubeVideoDownloaderFree",
+    "#JoystubeVideoDownloaderExtension",
+    "#JoystubeVideoDownloaderApp",
+    "#JoystubeVideoDownloaderChrome",
+    "#JoystubeVideoDownloaderFromURL",
+    "#HowToDownloadJoystubeVideos",
+    "#HowToDownloadJoystubeVideosMac",
+    "#HowToDownloadJoystubeVideosWindows",
+    "#HowToDownloadJoystubeVideosOnline",
+    "#HowToDownloadJoystubeVideosFree",
+    "#HowToDownloadFromJoystube",
+    "#HowToDownloadVideosFromJoystube",
+    "#DownloadJoystubeVideos",
+    "#JoystubeVideoTutorial",
+    "#SaveJoystubeVideos",
+    "#JoystubeVideoContentSaver",
+    "#HowToDownloadJoystubeVideosForFree"
+  ],
+  "youtube_tags": [
+    "Joystube Download",
+    "Joystube Downloader",
+    "Joystube Video Downloader",
+    "Joystube Video Downloader Online",
+    "Joystube Video Downloader Mac",
+    "Joystube Video Downloader Window",
+    "Joystube Video Downloader Free",
+    "Joystube Video Downloader Extension",
+    "Joystube Video Downloader App",
+    "Joystube Video Downloader Chrome",
+    "Joystube Video Downloader From URL",
+    "How To Download Joystube Videos",
+    "How To Download Joystube Videos Mac",
+    "How To Download Joystube Videos Windows",
+    "How To Download Joystube Videos Online",
+    "How To Download Joystube Videos Free",
+    "How To Download From Joystube",
+    "How To Download Videos From Joystube",
+    "Download Joystube Videos",
+    "Joystube Video Tutorial",
+    "Save Joystube Videos",
+    "Joystube Video Content Saver",
+    "How To Download Joystube Videos For Free"
+  ]
+}
